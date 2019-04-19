@@ -1,0 +1,752 @@
+
+body {
+	background-color: #ffa700;
+	font-family: 'Mukta Mahee', sans-serif;
+}
+p {
+	font-family: 'Mukta Mahee', sans-serif;
+	color: #144359;
+    font-size: 15px;
+}
+.darkBlack {
+	background: #733db5;
+	padding: 25px;
+	border-radius: 4px;
+	text-align: center;
+}
+.avatarLogo {
+	border-radius: 50px;
+	margin-top: 15px;
+}
+.logo {
+	font-family: 'Mukta Mahee', sans-serif;
+	color: #161616 !important;
+    font-size: 17px;
+    font-weight: bold;
+}
+.center {
+	text-align: center;
+}
+
+.rules h1 {
+	text-align: center;
+	margin-bottom: 25px;
+	color: #ffffff;
+}
+.faqTitle {
+    margin-bottom: 5px !important;
+}
+.faqAnswer {
+    margin-bottom: 25px !important;
+    color: #696969 !important;
+    font-size: 14px;
+}
+.rules {
+	display: none;
+}
+.playersContainer {
+	
+}
+.countdownNumbers {
+	font-size: 28px;
+	margin-bottom: 5px;
+}
+.countdownNumbers span {
+	background: #1f1559;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    margin: 4px;
+    font-size: 37px;
+}
+.countdownNumbersWaitContainer {
+	display: none;
+}
+.countdownNumbersWait {
+	background: #1f1559;
+	padding: 25px;
+	font-size: 15px;
+	color: #FFFFFF;
+	margin-top: 25px;
+}
+.orangeBackground {
+}
+.orangeBackground h1 {
+	text-align: left;
+	font-weight: 400;
+	color: #ffffff;
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+.orangeBackground p {
+	text-align: left;
+	color: #c2c2c4;
+	font-size: 16px;
+	font-weight: 300;
+}
+.darkButton {
+	margin: 10px;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 4px;
+	border-radius: 4px;
+	background: transparent;
+	font-size: 16px;
+	color: #144359 !important;
+	cursor: pointer !important;
+	font-weight: bold
+}
+.balanceButton {
+	background-color: #FFFFFF;
+	margin: 10px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 40px;
+	box-shadow: 0 2px 8px rgba(16,22,31,.2);
+	font-size: 13px;
+	color: #000000 !important;
+	cursor: pointer !important;
+}
+
+.wave-14 {
+	/*display: none;*/
+}
+.wave-15 {
+	display: none;
+}
+.wave-16 {
+	display: none;
+}
+.wave-17 {
+	display: none;
+}
+.orangeLineBtn {
+	background-color: transparent;
+	border: 1px solid #f35b11;
+	margin: 10px;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 4px;
+	border-radius: 4px;
+	box-shadow: 0 2px 8px rgba(16,22,31,.1);
+	font-size: 14px;
+	color: #f35b11 !important;
+	cursor: pointer !important;
+}
+.navPlayersTeamBtnActive {
+	background-color: transparent;
+	border-bottom: 2px solid #271a6f;
+	padding: 10px;
+	padding-left: 45px;
+	padding-right: 45px;
+	font-size: 14px;
+	color: #271a6f !important;
+	cursor: pointer !important;
+}
+.navPlayersTeamBtnNotActive {
+	background-color: transparent;
+	border-bottom: 2px solid #9490b1;
+	padding: 10px;
+	padding-left: 45px;
+	padding-right: 45px;
+	font-size: 14px;
+	color: #9490b1 !important;
+	cursor: pointer !important;
+}
+.onePlayer {
+	text-align: center;
+	background-color: #FFFFFF;
+	margin: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-radius: 4px;
+	box-shadow: 0 2px 8px rgba(16,22,31,.1);
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+.onePlayer p {
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+.oneShare {
+	text-align: center;
+	background-color: #ffffff;
+	margin: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-radius: 4px;
+	box-shadow: 0 2px 8px rgba(0,0,0,.3);
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.oneShare h3 {
+	margin-top: 15px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+}
+.oneShare p {
+	text-align: center;
+	font-size: 13px;
+	margin: 5px;
+}
+.roleTitle {
+    color: #144359;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.oneCompany {
+	text-align: center;
+	background-color: #2f3136;
+	margin-top: 20px;
+	margin: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-radius: 4px;
+	box-shadow: 0 2px 8px rgba(0,0,0,.5);
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.oneCompany h2 {
+	text-align: center;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.oneCompany h3 {
+	margin-top: 15px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.oneCompany p {
+	text-align: center;
+	font-size: 14px;
+	color: #c3c4c5;
+}
+.btnPurchaseAppartment {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.btnBuildingOwner {
+	display:none; 
+	max-width:185px; 
+	background:#d7f0fc !important;
+	color:#144359 !important;
+}
+
+.btnAppartmentOwner {
+	margin-right: 5px;
+	margin-left: 5px;
+	display:none; 
+	max-width:185px; 
+	background:#d7f0fc !important;
+	color:#144359 !important;
+}
+
+.btnPurchase {
+	border-radius: 2px;
+	background-color: #738bd8;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #FFFFFF !important;
+	font-size: 13px;
+	cursor: pointer !important;
+}
+.btnPurchase:hover {
+	background-color: #0c957c;
+}
+.btnPurchaseCompany {
+	border-radius: 2px;
+	background-color: #738bd8;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #FFFFFF !important;
+	font-size: 15px;
+	cursor: pointer !important;
+	border: 0px solid #000000 !important;
+	text-decoration: none;
+}
+.btnPurchaseCompany:hover {
+	text-decoration: underline;
+}
+.btnPurchasePlayerModal {
+	border-radius: 2px;
+	background-color: #23daa2;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #FFFFFF !important;
+	font-size: 13px;
+	cursor: pointer !important;
+}
+.btnPurchasePlayerModal:hover {
+	background-color: #0c957c;
+}
+.modalBg {
+	background: #3d8eb5;
+}
+.btnSetNickname {
+	border-radius: 2px;
+	background-color: #48b482;
+   	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #FFFFFF !important;
+	font-size: 15px;
+	cursor: pointer !important;
+	margin-top: 15px;
+	border: 0px solid #000000 !important;
+}
+.btnCreateGamerFinal {
+	border-radius: 2px;
+	background-color: #48b482;
+   	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #FFFFFF !important;
+	font-size: 15px;
+	cursor: pointer !important;
+	margin-top: 15px;
+	border: 0px solid #000000 !important;
+}
+.inputModal {
+	background: #484b51 !important;
+	border-radius: 4px;
+	border: 0px solid #0a94f1 !important;
+	color:#ffffff !important;
+	padding:5px;
+	margin-bottom: 10px;
+}
+.inputModal::placeholder {
+	color:#c3c4c5;
+}
+.inputModal::selection {
+	background: #000000;
+	color:#c3c4c5;
+}
+.btnPurple {
+	border-radius: 2px;
+	background-color: #738bd8;
+    padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #FFFFFF !important;
+	font-size: 15px;
+	cursor: pointer !important;
+	margin-top: 15px;
+	border: 0px solid #000000 !important;
+}
+.btnGreen {
+	border-radius: 2px;
+	background-color: #48b482;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #ffffff !important;
+	font-size: 15px;
+	cursor: pointer !important;
+}
+.btnWhite {
+	border-radius: 2px;
+	background-color: #ffffff;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #170f01;
+	font-size: 15px;
+	cursor: pointer !important;
+	margin-top: 15px;
+	border: 0px solid #000000 !important;
+}
+.btnBlue {
+	background-color: #0a94f1 !important;
+	color: #ffffff !important;
+}
+.sharePlayerContainer {
+	background: #fbfafe;
+	border-radius: 4px;
+	padding: 15px;
+	font-size: 13px;
+	color: #4c4b55; 
+}
+.btnMetamask {
+	border-radius: 2px;
+	background-color: #ff9944;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #FFFFFF !important;
+	font-size: 15px;
+	cursor: pointer !important;
+	display: none;
+	border: 0px solid #000000 !important
+}
+.btnPurchaseShare {
+	border-radius: 2px;
+	background-color: #ea4343;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #FFFFFF !important;
+	font-size: 14px;
+	cursor: pointer !important;
+	margin-top: 10px;
+	border: 0px solid #000000 !important;
+}
+.btnOwnCompany {
+	border-radius: 2px;
+	background-color: #202225;
+	padding:5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #FFFFFF !important;
+	font-size: 15px;
+	margin-top: 10px;
+	border: 0px solid #000000 !important;
+	display: none;
+}
+.btnShareUpdatePrice {
+	margin-top: 10px;
+	border-radius: 2px;
+	background-color: #f44c4c;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #FFFFFF !important;
+	font-size: 14px;
+	margin-top: 10px;
+	border: 0px solid #000000 !important;
+	cursor: pointer !important;
+}
+.btnShareUpdatePrice:hover {
+	text-decoration: underline !important;
+}
+.btnPurchaseStock:hover {
+	text-decoration: underline;
+}
+.tooltip {
+	font-family: 'Roboto', monospace !important;
+	font-size: 12px !important;
+}
+.btnOwnPlayer {
+	border-radius: 2px;
+	background-color: #ea4343;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #FFFFFF !important;
+	font-size: 13px;
+	cursor: pointer !important;
+	display: none;
+}
+.btnOwnPlayerModal {
+	border-radius: 2px;
+	background-color: #ea4343;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #FFFFFF !important;
+	font-size: 13px;
+	cursor: pointer !important;
+	display: none;
+}
+.metamaskAlert {
+	background: #ffffff;
+	border-bottom: 1px solid #ebedf1;
+}
+.metamaskAlert p {
+	text-align: center;
+	color: #000000;
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	font-weight: 300;
+}
+.topBlock {
+	background-color: transparent;
+	margin:0;
+	padding:0;
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+}
+.showPlayerDetails {
+	cursor: pointer !important;
+}
+.white-rewards {
+	background: #FFFFFF;
+	border: 0px solid #FFFFFF;
+	box-shadow: 0 2px 8px rgba(16,22,31,.2);
+}
+
+.white-rewards p { 
+	color: #333333 !important;
+}
+.cryptoGamerVerified {
+	color: #3bbffc;
+	display: none;
+}
+.companyHeader {
+	padding: 0px;
+}
+.yourText {
+	background: #F2F2F2;
+	border-radius: 4px;
+	padding: 10px;
+	text-align: center;
+	font-size: 12px !important;
+    margin-bottom: 5px;
+}
+.companyDetailsBg {
+	background: #F2F2F2;
+	border-radius: 4px;
+	font-size: 13px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.greyBg {
+	margin-top: 10px;
+	background: #F2F2F2;
+	border-radius: 4px;
+	font-size: 13px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.promotionLink {
+	color: #dc3536;
+	font-size: 12px;
+	margin-bottom: 0px;
+	cursor: pointer !important;
+}
+.promotionLink:hover {
+	color: #dc3536;
+	text-decoration: underline;
+}
+.explanations {
+	text-align: center;
+	font-size: 14px;
+}
+
+.redMessage {
+	background: #e13737;
+	color: #FFFFFF !important;
+	padding: 15px;
+	border-radius: 4px;
+}
+/* Company's background */
+.appleBg {
+	background: #000000;
+	color: #FFFFFF;
+}
+.appleBgInverted {
+	background: transparent !important;
+	border:1px solid #000000 !important;
+	color: #000000 !important;
+}
+.facebookBg {
+	background: #3b5998;
+	color: #FFFFFF;
+}
+.facebookBgInverted {
+	background: transparent !important;
+	border:1px solid #3b5998 !important;
+	color: #3b5998 !important;
+}
+.snapchatBg {
+	background: #fffc00;
+	color: #000000 !important;
+}
+.snapchatBgInverted {
+	background: transparent !important;
+	border:1px solid #f1de07 !important;
+	color: #f1de07 !important;
+}
+.googleBg {
+	background: #f2F2F2;
+	color: #333333 !important;
+}
+.googleBgInverted {
+	background: transparent !important;
+	border:1px solid #696969 !important;
+	color: #696969 !important;
+}
+.microsoftBg {
+	background: #0078d7;
+	color: #ffffff !important;
+}
+.microsoftBgInverted {
+	background: transparent !important;
+	border:1px solid #0078d7 !important;
+	color: #0078d7 !important;
+}
+.nintendoBg {
+	background: #e60012;
+	color: #ffffff !important;
+}
+.nintendoBgInverted {
+	background: transparent !important;
+	border:1px solid #e60012 !important;
+	color: #e60012 !important;
+}
+.mcdonaldBg {
+	background: #d42923;
+	color: #fcc840 !important;
+}
+.mcdonaldBgInverted {
+	background: transparent !important;
+	border:1px solid #fcc840 !important;
+	color: #d42923 !important;
+}
+.kodakBg {
+	background: #ffb700;
+	color: #e90101 !important;
+}
+.kodakBgInverted {
+	background: transparent !important;
+	border:1px solid #e90101 !important;
+	color: #e90101 !important;
+}
+.twitterBg {
+	background: #1da1f2;
+	color: #ffffff !important;
+}
+.twitterBgInverted {
+	background: transparent !important;
+	border:1px solid #1da1f2 !important;
+	color: #1da1f2 !important;
+}
+.alibabaBg {
+	background: #f47937;
+	color: #ffffff !important;
+}
+.alibabaBgInverted {
+	background: transparent !important;
+	border:1px solid #f47937 !important;
+	color: #f47937 !important;
+}
+.nvidiaBg {
+	background: #f2F2F2;
+	color: #1a1918 !important;
+}
+.nvidiaBgInverted {
+	background: transparent !important;
+	border:1px solid #7ab547 !important;
+	color: #7ab547 !important;
+}
+.nikeBg {
+	background: #d61f17;
+	color: #ffffff !important;
+}
+.nikeBgInverted {
+	background: transparent !important;
+	border:1px solid #d61f17 !important;
+	color: #d61f17 !important;
+}
+.baiduBg {
+	background: #f2f2f2;
+	color: #ed1c24 !important;
+}
+.baiduBgInverted {
+	background: transparent !important;
+	border:1px solid #ed1c24 !important;
+	color: #2319dc !important;
+}
+.teslaBg {
+	background: #f2f2f2;
+	color: #0f0f0f !important;
+}
+.teslaBgInverted {
+	background: transparent !important;
+	border:1px solid #0f0f0f !important;
+	color: #e51837 !important;
+}
+.amazonBg {
+	background: #ff9900;
+	color: #221f1f !important;
+}
+.amazonBgInverted {
+	background: transparent !important;
+	border:1px solid #ff9900 !important;
+	color: #221f1f !important;
+}
+
+.intelBg {
+	background: #0860a8;
+	color: #ffffff !important;
+}
+.intelBgInverted {
+	background: transparent !important;
+	border:1px solid #0860a8 !important;
+	color: #0860a8 !important;
+}
+.geBg {
+	background: #f2f2f2;
+	color: #3b73b9 !important;
+}
+.geBgInverted {
+	background: transparent !important;
+	border:1px solid #3b73b9 !important;
+	color: #3b73b9 !important;
+}
+.netflixBg {
+	background: #e50914;
+	color: #ffffff !important;
+}
+.netflixBgInverted {
+	background: transparent !important;
+	border:1px solid #e50914 !important;
+	color: #e50914 !important;
+}
+.goproBg {
+	background: #f2F2F2;
+	color: #143376 !important;
+}
+.goproBgInverted {
+	background: transparent !important;
+	border:1px solid #143376 !important;
+	color: #143376 !important;
+}
+.adidasBg {
+	background: #0071bc;
+	color: #ffffff !important;
+}
+.adidasBgInverted {
+	background: transparent !important;
+	border:1px solid #0071bc !important;
+	color: #0071bc !important;
+}
+.salesforceBg {
+	background: #f2F2F2;
+	color: #00a1e0 !important;
+}
+.salesforceBgInverted {
+	background: transparent !important;
+	border:1px solid #00a1e0 !important;
+	color: #00a1e0 !important;
+}
+.linkedinBg {
+	background: #f2F2F2;
+	color: #00a1e0 !important;
+}
+.linkedinBgInverted {
+	background: transparent !important;
+	border:1px solid #006699 !important;
+	color: #000000 !important;
+}
+.nokiaBg {
+	background: #f2F2F2;
+	color: #1c4598 !important;
+}
+.nokiaBgInverted {
+	background: transparent !important;
+	border:1px solid #1c4598 !important;
+	color: #1c4598 !important;
+}
+/* End company's background */
